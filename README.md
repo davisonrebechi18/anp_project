@@ -9,7 +9,8 @@ discovery of the data, environment of development I used operating system Linux
 and LibreOffice application to convert the .xls spreadsheet to a new version of 
 the .xlsx file, making it possible to start the work through the raw data.
 
-
+<br/>
+<br/>
 
 ### Process
 
