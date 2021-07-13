@@ -69,6 +69,9 @@ The process extracts 2 tables:
 
 ### Schema 
 
+<br/>
+<br/>
+
 Column | Type
 ------------- | -------------
 year_month  | date
@@ -77,7 +80,7 @@ product     | string
 unit        | string
 volume      | double
 created_at  | timestamp
-            |
+
 <br/>
 <br/>
 
