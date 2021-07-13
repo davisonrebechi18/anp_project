@@ -20,9 +20,8 @@ OR
 $ conda create -n anpenv python=3.8 anaconda
 ```
 
-
 ### Activate virtual environment
-The following commands [activate](https://virtualenv.pypa.io/en/latest/userguide/#activate-script) an existing virtual environment on Windows and Unix systems. The command assume that the virtual environment is named `venv` and that its location is in a subdirectory `path/to/` of the current directory. 
+The following commands [activate](https://virtualenv.pypa.io/en/latest/userguide/#activate-script) an existing virtual environment on Windows and Unix systems. The command assume that the virtual environment is named `anpenv` and that its location is in a subdirectory `path/to/` of the current directory. 
 ```sh
 # Windows (CMD.exe)
 $ path\to\anpenv\Scripts\activate.bat
@@ -40,12 +39,9 @@ The following command deactivates the current virtual environment, any dependenc
 $ (anpenv) deactivate
 ```
 
-
 ### Clone repository
 https://github.com/davisonrebechi18/anp_project.git
 
-<br/>
-<br/>
 
 ### Solution:
 
@@ -55,8 +51,6 @@ discovery of the data, environment of development I used operating system Linux
 and LibreOffice application to convert the .xls spreadsheet to a new version of 
 the .xlsx file, making it possible to start the work through the raw data.
 
-<br/>
-<br/>
 
 ### Process
 
@@ -65,8 +59,6 @@ the .xlsx file, making it possible to start the work through the raw data.
      alt="Process"
      style="float: left; margin-right: 10px;" />
 
-<br/>
-<br/>
 
 For this solution, pandas libraries for reading, manipulation and SQLite3 for data storage were used.
 
@@ -76,8 +68,6 @@ The data are placed in 3 dataframes during processing, the first process keeping
 
 ### Metadata from file
 
-<br/>
-<br/>
 
 Column        | Type          | Description
 ------------- | ------------- | -------------
@@ -101,22 +91,14 @@ DEZEMBR       | double        | total sold in December
 TOTAL         | double        | total sold in year
 
 
-<br/>
-<br/>
-
 
 The process extracts 2 tables:
 
  - Sales of oil derivative fuels by UF and product;
  - Sales of diesel by UF and type;
  
-<br/>
-<br/>
 
 ### Schema 
-
-<br/>
-<br/>
 
 Column | Type
 ------------- | -------------
@@ -127,7 +109,6 @@ unit        | string
 volume      | double
 created_at  | timestamp
 
-<br/>
 <br/>
 
 Other solutions and services could complement this project as a job scheduler to run daily to feed the database.
