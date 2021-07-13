@@ -11,7 +11,7 @@ ANP Fuel Sales ETL
 
 
 ### Create new virtual environment
-The following command creates a new virtual environment named `venv` in the current directory, usually this will be your project's directory.
+The following command creates a new virtual environment named `anpenv` in the current directory, usually this will be your project's directory.
 ```sh
 $ virtualenv anpenv
 ```
