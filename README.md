@@ -19,13 +19,13 @@ the .xlsx file, making it possible to start the work through the raw data.
      alt="Process"
      style="float: left; margin-right: 10px;" />
 
-
 <br/>
 <br/>
 
+For this solution, pandas libraries for reading, manipulation and SQLite3 for data storage were used.
 
-The process starts reading excel file "vendas-combustiveis-m3.xlsx" with library 
-pandas from Python and all manipulation of data happens into script python. 
+The process starts with reading the excel file through python programming.
+The data are placed in 3 dataframes during processing, the first process keeping the raw data, an intermediate staging layer for data processing and the last dataframe with the enrichment and standardization of the data ready to be recorded to a database or to possibility to export via some other file extension.
 
 
 ### Metadata from file
@@ -66,7 +66,6 @@ The process extracts 2 tables:
  
 <br/>
 <br/>
- 
 
 ### Schema 
 
@@ -79,5 +78,11 @@ unit        | string
 volume      | double
 created_at  | timestamp
             |
-          
-          
+<br/>
+<br/>
+
+Other solutions and services could complement this project as a job scheduler to run daily to feed the database.
+Another possibility would be the delivery of reports ready for the business area, communicating through an email with the status and kpi's to the user. 
+
+*A tecnologia move o mundo.*
+> Steve Jobs
