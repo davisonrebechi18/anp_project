@@ -1,6 +1,46 @@
 ANP Fuel Sales ETL
 ================
 
+### Create new Python virtual environment and manage dependencies
+
+### Requirements
+* `python` 3.x
+* `pip`
+* [`virtualenv`](https://virtualenv.pypa.io/en/latest/)
+* pandas 1.2.4
+
+### Create new virtual environment
+The following command creates a new virtual environment named `venv` in the current directory, usually this will be your project's directory.
+```sh
+$ virtualenv venv
+```
+
+### Activate virtual environment
+The following commands [activate](https://virtualenv.pypa.io/en/latest/userguide/#activate-script) an existing virtual environment on Windows and Unix systems. The command assume that the virtual environment is named `venv` and that its location is in a subdirectory `path/to/` of the current directory. 
+```sh
+# Windows (CMD.exe)
+$ path\to\venv\Scripts\activate.bat
+# Unix
+$ source path/to/venv//bin/activate
+```
+Once the virtual environment has been actiated your console cursor might prepend the name of the virtual environment as shown below.
+```sh
+$ (venv) echo 'Hello World!'
+```
+
+### Deactivate virtual environment
+The following command deactivates the current virtual environment, any dependency installed after this command will be installed globally.
+```sh
+$ (venv) deactivate
+```
+
+
+### Clone repository
+https://github.com/davisonrebechi18/anp_project.git
+
+<br/>
+<br/>
+
 ### Solution:
 
 The solution I used to work with the resources of the Python packages available 
