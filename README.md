@@ -9,29 +9,35 @@ ANP Fuel Sales ETL
 * [`virtualenv`](https://virtualenv.pypa.io/en/latest/)
 * pandas 1.2.4
 
+
 ### Create new virtual environment
 The following command creates a new virtual environment named `venv` in the current directory, usually this will be your project's directory.
 ```sh
-$ virtualenv venv
+$ virtualenv anpenv
 ```
+OR
+```sh
+$ conda create -n anpenv python=3.8 anaconda
+```
+
 
 ### Activate virtual environment
 The following commands [activate](https://virtualenv.pypa.io/en/latest/userguide/#activate-script) an existing virtual environment on Windows and Unix systems. The command assume that the virtual environment is named `venv` and that its location is in a subdirectory `path/to/` of the current directory. 
 ```sh
 # Windows (CMD.exe)
-$ path\to\venv\Scripts\activate.bat
+$ path\to\anpenv\Scripts\activate.bat
 # Unix
-$ source path/to/venv//bin/activate
+$ source path/to/anpenv//bin/activate
 ```
 Once the virtual environment has been actiated your console cursor might prepend the name of the virtual environment as shown below.
 ```sh
-$ (venv) echo 'Hello World!'
+$ (anpenv) echo 'Hello World!'
 ```
 
 ### Deactivate virtual environment
 The following command deactivates the current virtual environment, any dependency installed after this command will be installed globally.
 ```sh
-$ (venv) deactivate
+$ (anpenv) deactivate
 ```
 
 
